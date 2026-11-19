@@ -1,0 +1,73 @@
+
+h1 {
+    border-bottom-style: inset;
+}
+
+h5 {
+    font-style: italic;
+}
+
+pre {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+/* Cada poltrona */
+figure {
+    display: inline-block;
+    font-size: 0.7em;
+    margin: 0;
+    text-align: center;
+}
+
+/* Imagem da poltrona */
+img.poltrona {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Legenda */
+.img-legenda {
+    width: 30px;
+    height: auto;
+}
+
+.entre-letras {
+    letter-spacing: 0.5em;
+}
+
+/* Cabine na horizontal */
+#divCabine {
+    display: block;
+    overflow-x: auto;
+    padding: 15px;
+}
+
+.layout-cabine {
+    display: grid;
+    grid-template-columns: max-content 24px max-content;
+    column-gap: 8px;
+    justify-content: center;
+    align-items: start;
+}
+
+.lado-poltronas {
+    display: grid;
+    grid-template-columns: repeat(2, 45px);
+    gap: 8px;
+    text-align: center;
+}
+
+.corredor {
+    min-height: 5px;
+}
+/* Corredor central */
+.bloco-poltronas .separador {
+    height: 30px;
+}
+
+/* Numeração */
+figcaption {
+    font-size: 12px;
+}
